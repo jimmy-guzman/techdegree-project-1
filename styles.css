@@ -120,13 +120,39 @@ ul.skills {
   background: #0399ff;
 }
 
+.courses li {
+  border-radius: 6px;
+  display: block;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.courses li:nth-child(1),
+.courses li:nth-child(2)
+ {
+  background: #39ADD1;
+}
+
+.courses li:nth-child(3),
+.courses li:nth-child(5)
+ {
+  background: #3079AB;
+}
+
+.courses li:nth-child(4)
+ {
+  background: #c25975;
+}
+
 .hobbies-image {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 175px;
+  max-width: 500px;
   height: 200px;
   border-radius: 5px;
-  border: 5px solid #ff9904;
+
   transition: all .5s;
 }
 .hobbies-image:hover {
